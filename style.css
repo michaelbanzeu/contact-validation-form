@@ -20,7 +20,6 @@ form {
     padding: 12px;
     border-radius: 12px;
     background: linear-gradient(to bottom, rgb(0, 166, 255), rgb(52, 57, 59));
-    /* background-color: rgb(52, 57, 59); */
     color: white;
 }
 
@@ -70,9 +69,10 @@ button {
 }
 
 .valid {
-    color: rgb(0, 166, 255);
+    color: rgb(104, 255, 124);
 }
 
 .error {
-    color: rgb(84, 250, 106);
+    color: rgb(255, 90, 90);
+
 }
