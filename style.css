@@ -1,78 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, white, rgb(0, 166, 255));
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, white, rgb(0, 166, 255));
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 12px;
-    border-radius: 12px;
-    background: linear-gradient(to bottom, rgb(0, 166, 255), rgb(52, 57, 59));
-    color: white;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 12px;
+  border-radius: 12px;
+  background: linear-gradient(to bottom, rgb(0, 166, 255), rgb(52, 57, 59));
+  color: white;
 }
 
 form h1 {
-    text-align: center;
-    padding: 12px;
-    margin-bottom: 20px;
-    color: white;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 label,
 input,
 textarea {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px;
 }
 
 input,
 textarea,
 button {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 .submit {
-    align-self: center;
-    width: 80px;
-    height: 32px;
-    margin: 12px;
-    color: white;
-    background-color: rgb(0, 166, 255);
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: bold;
+  align-self: center;
+  width: 80px;
+  height: 32px;
+  margin: 12px;
+  color: white;
+  background-color: rgb(0, 166, 255);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .status {
-    padding: 4px;
+  padding: 4px;
 }
 
 .valid,
 .error {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .valid {
-    color: rgb(104, 255, 124);
+  color: rgb(104, 255, 124);
 }
 
 .error {
-    color: rgb(255, 90, 90);
-
+  color: rgb(255, 90, 90);
 }
